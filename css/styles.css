@@ -12,7 +12,7 @@ body {
 .wrapper {
   width: 100vw;
   height: 100vh;
-  background-color: #191c32;
+  background-color: #363535;
   color: #fff;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 .brand span {
-  color: aqua;
+  color: #633251;
 }
 
 .navbar {
@@ -48,12 +48,12 @@ body {
 }
 
 .menu a:hover {
-  background-color: aqua;
-  color: #191c32;
+  background-color: #633251;
+  color: #363535;
 }
 
 .menu .active {
-  color: aqua;
+  color: #633251;
 }
 
 .main {
@@ -71,28 +71,30 @@ h1 {
 }
 
 h1 span {
-  color: aqua;
+  color: #633251;
 }
 
 .download-cv {
   padding: 10px 20px;
-  background-color: aqua;
+  background-color: #633251;
   border: none;
   border-radius: 20px;
   margin-top: 10px;
-  box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, 0.69);
+  box-shadow: 1px 3px 11px -5px #7d5580;
+  cursor: pointer;
 }
 
 .download-cv:hover {
   background-color: #fff;
   box-shadow: none;
   transition: ease-in 0.4s;
+  cursor: pointer;
 }
 
 .avatar {
   width: 350px;
-  border: 5px solid aqua;
   height: 400px;
+  border: 5px solid #633251;
 }
 
 .about {
@@ -115,13 +117,30 @@ h1 span {
 
 .about-info h2 {
   font-size: 2em;
-  color: #191c32;
+  color: #363535;
+}
+
+.about-btn {
+  padding: 10px 20px;
+  background-color: #633251;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  box-shadow: 1px 3px 11px -5px #3a273b;
+  cursor: pointer;
+}
+
+.about-btn:hover {
+  background-color: #363535;
+  box-shadow: none;
+  transition: ease-in 0.4s;
+  cursor: pointer;
 }
 
 .divider {
   height: 4px;
   width: 60px;
-  background-color: aqua;
+  background-color: #633251;
   margin-top: 5px;
   margin-bottom: 2em;
 }
@@ -132,7 +151,7 @@ h1 span {
 
 .portfolio {
   width: 100vw;
-  background-color: #191c32;
+  background-color: #363535;
   color: #fff;
 }
 
@@ -156,15 +175,23 @@ h1 span {
 .card {
   width: 300px;
   height: 350px;
-  background-color: rgb(19, 12, 105);
+  background-color: #72855e;
   margin: 0 2em;
 }
 
 .card__img {
   width: 100%;
   height: 150px;
-  background-image: url(../img/undraw_React_re_g3ui.png);
   background-size: cover;
+  background-position: center;
+}
+
+#first {
+  background-image: url(../img/bella.JPG);
+}
+
+#second {
+  background-image: url(../img/woolup.JPG);
 }
 
 .card__title {
@@ -201,6 +228,72 @@ h1 span {
 
 .card .project-details a {
   text-decoration: none;
-  color: #191c32;
+  color: #363535;
   text-transform: uppercase;
+}
+
+.contact-headings {
+  width: 100vw;
+  padding: 2.5em 5em;
+}
+
+.contact-headings h2 {
+  font-size: 2.5em;
+}
+
+.container-contact {
+  padding: 3em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.container-contact img {
+  width: 450px;
+  height: 500px;
+  bottom: 0;
+  opacity: 0.7;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-top: 2em;
+}
+
+.form input {
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.form textarea {
+  height: 150px;
+  padding: 1.5em;
+  margin-bottom: 1em;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn-submit {
+  padding: 10px 20px;
+  margin: 1em;
+  border: none;
+  text-transform: uppercase;
+  background-color: #633251;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px #7d5580;
+}
+
+.btn-submit:hover {
+  background-color: #fff;
+  box-shadow: none;
+  transition: ease-in 0.4s;
 }
